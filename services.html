@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Services</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="about.html">
+
+</head>
+<body>
+
+<div class="container">
+	<div class="navbar">
+	<img src="logo.png" class="logo">
+<nav>
+	<ul id="menuList">
+		li><a href="/">Home</a></li>
+		<li><a href="services.html">Services</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="https://forms.gle/dNbc3BHsSx4fuCFG9">Order Now</a></li>
+	</ul>
+</nav>
+	<img src="menu.png" class="menu-icon" onclick="togglemenu()">
+	</div>
+
+<div class="row">
+<div class="col-1">
+	
+	<h1>html & css web programming</h1>
+	<br><br>
+	<h1>Experience in artificial intelligence</h1>
+	<br><br>
+	<h1>Programming websites with wordpress and blogger</h1>
+	
+</div>
+<div class="col-2">
+	<img src="service.png" class="photo">
+	<div class="color-box"></div>
+	
+</div>
+	</div>
+	</div>
+
+	<div class="social-links">
+		<img src="insta.png">
+		<img src="insta.png">
+
+
+
+	</div>
+
+
+<script>
+	
+	var menuList = document.getElementById("menuList");
+	menuList.style.maxHeight = "0px";
+	 
+	 function togglemenu (){
+
+	 	if(menuList.style.maxHeight == "0px")
+	 	{
+	 		menuList.style.maxHeight = "130px";
+	 	}
+	 	else
+	 	{
+	 		menuList.style.maxHeight = "0px";
+	 	}
+	 }
+
+</script>
+</body>
+
+
+</html>
