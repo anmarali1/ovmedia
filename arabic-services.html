@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Services</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="about.html">
+
+</head>
+<body>
+
+<div class="container">
+	<div class="navbar">
+	<img src="logo.png" class="logo">
+<nav>
+	<ul id="menuList">
+		<li><a href="/">الصفة الرئيسية</a></li>
+		<li><a href="arabic-services.html">الخدمات</a></li>
+		<li><a href="arabicabout.html">عن الموقع</a></li>
+		<li><a href="https://forms.gle/dNbc3BHsSx4fuCFG9">اطلب الان</a></li>
+	</ul>
+</nav>
+	<img src="menu.png" class="menu-icon" onclick="togglemenu()">
+	</div>
+
+<div class="row">
+<div class="col-1">
+	
+	<h1>html & css web programming</h1>
+	<br><br>
+	<h1>نقوم بتطوير الذكاء الاصطناعي</h1>
+	<br><br>
+	<h1>Pogramming with html / css</h1>
+</div>
+<div class="col-2">
+	<img src="service.png" class="photo">
+	<div class="color-box"></div>
+	
+</div>
+	</div>
+	</div>
+
+	<div class="social-links">
+		<img src="insta.png">
+		<img src="insta.png">
+
+
+
+	</div>
+
+
+<script>
+	
+	var menuList = document.getElementById("menuList");
+	menuList.style.maxHeight = "0px";
+	 
+	 function togglemenu (){
+
+	 	if(menuList.style.maxHeight == "0px")
+	 	{
+	 		menuList.style.maxHeight = "130px";
+	 	}
+	 	else
+	 	{
+	 		menuList.style.maxHeight = "0px";
+	 	}
+	 }
+
+</script>
+</body>
+
+
+</html>
